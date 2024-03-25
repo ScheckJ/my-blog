@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 10px;
+}
+
+.hero{
+border: 5px solid black;
+padding: 1px;
+}
+
+main{
+    margin: 5px;
+    padding: 5px; 
+}
+
+section{
+    margin: 10px;
+    padding: 5px;
+    border: 3px  solid black;
+}
+
+section h2{
+    border-bottom: 3px  solid black;
+    margin: 10px;
+    padding: 5px;
+    
+}
+section p {
+    display: flex;
+    
+    border: 3px  solid black;
+    padding: 20px;
+    margin-left: 9px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+li {
+    font-weight: bolder;
+}
