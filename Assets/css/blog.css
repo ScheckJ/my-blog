@@ -27,16 +27,13 @@ section{
 
 section h2{
     border-bottom: 3px  solid black;
-    margin: 10px;
     padding: 5px;
     
 }
 section p {
     display: flex;
-    
-    border: 3px  solid black;
-    padding: 20px;
     margin-left: 9px;
+    margin-bottom: 80px;
 }
 
 footer{
@@ -46,5 +43,8 @@ footer{
 }
 
 li {
+    display: flex;
     font-weight: bolder;
+    margin-left: 60px;
+    margin-bottom: 20px;
 }
