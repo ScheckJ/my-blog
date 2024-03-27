@@ -9,6 +9,14 @@ header{
     margin: 10px;
 }
 
+button {
+    display: flex;
+    float: right;
+    color: #fefafa;
+    background-color: #000000;
+    padding: 10px;
+}
+
 .hero{
 border: 5px solid black;
 padding: 1px;
