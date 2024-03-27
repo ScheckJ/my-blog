@@ -15,6 +15,8 @@ button {
     color: #fefafa;
     background-color: #000000;
     padding: 10px;
+    margin-left: 10px;
+    
 }
 
 .hero{
@@ -56,3 +58,40 @@ li {
     margin-left: 60px;
     margin-bottom: 20px;
 }
+
+.dark {
+    background-color:#243447;
+    height: 100vh;
+    color: #fefafa;
+   
+  }
+  
+  .dark header {
+    color: #fefafa;
+  }
+  .dark figure {
+    color: #fefafa;
+  }
+  .dark section {
+    color: #fefafa;
+  }
+
+  
+.light {
+    background-color:#fefafa;
+    height: 100vh;
+    color: #000000;
+   
+  }
+  
+  .light header {
+    color: #000000;
+  }
+  .light figure {
+    color: #000000;
+  }
+  .light section {
+    color: #000000;
+  }
+
+  
