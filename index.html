@@ -7,13 +7,19 @@
 </head>
 
 <body>
-    <figure class="hero"></figure>
-    <header>
-        <div class="vl"></div>
-        <h1>What's on your mind?</h1>
-    </header>
-    <main>
-        <form id="form">
+    <div class="container light">
+        <header>
+            <button id="theme">Light</button>
+           
+        </header>
+        <figure class="hero"></figure>
+    <div class="vl"></div>
+    <main class="sides">
+        <div id="circle">
+            <h1 id="shape-text">My First Blog</h1>
+        </div>
+        <form class="side" id="form">
+            <h1>Whats on your mind</h1>
             <div>
                 <label for="username">Usernname:</label>
                 <input type="text" id="uname" name="username" required>
@@ -24,14 +30,16 @@
             </div>
             <div>
                 <label for="content">Content:</label>
-                <textarea id="content" name="content" cols="20"  required >
+                <textarea id="content" name="content" cols="60"  required >
                 </textarea>              
             </div>
 
             <button type="submit" value="submit">Submit</button>
         </form>
     </main>
+</div>
     <script src="Assets/js/form.js"></script>
+    <script src="./Assets/js/blog.js"></script>
 </body>
 
 </html>
