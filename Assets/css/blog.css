@@ -5,7 +5,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
-header{
+header {
     margin: 10px;
 }
 
@@ -60,20 +60,22 @@ li {
 }
 
 .dark {
-    background-color:#243447;
-    height: 100vh;
+    background-color:#18202a;
+    height: 120vh;
     color: #fefafa;
    
   }
   
   .dark header {
     color: #fefafa;
+    background-color: #18202a ;
   }
   .dark figure {
     color: #fefafa;
   }
   .dark section {
     color: #fefafa;
+    border: 5px solid #fefafa;
   }
 
   
