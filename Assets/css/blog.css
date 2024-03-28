@@ -31,7 +31,7 @@ main{
 
 section{
     margin: 10px;
-    padding: 5px;
+    /* padding: 5px; */
     border: 3px  solid black;
 }
 
@@ -42,8 +42,9 @@ section h2{
 }
 section p {
     display: flex;
-    margin-left: 9px;
-    margin-bottom: 80px;
+    margin-left: 10px;
+    /* margin-bottom: 5px; */
+    padding: 10px;
 }
 
 footer{

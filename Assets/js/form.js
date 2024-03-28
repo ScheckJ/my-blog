@@ -1,3 +1,25 @@
-// document.addEventListener("DOMContentLoaded", function(){
-//     const blog
-// })
+const formData = document.getElementById('form')
+
+function start(event) {
+    event.preventDefault();
+
+    const blogs = JSON.parse(localStorage.getItem('blogs'))  || []
+
+    const username = document.getElementById('uname').value
+    const title = document.getElementById('title').value
+    const content = document.getElementById('content').value
+
+    const blogpost = {
+        username,
+        title,
+        content
+    }
+
+    blogs.push(blogpost)
+
+   localStorage.setItem('blogs', JSON.stringify(blogs))
+    location.href = './blog.html'
+}
+
+
+formData.addEventListener('submit', start)
