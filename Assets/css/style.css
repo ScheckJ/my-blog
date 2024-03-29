@@ -39,6 +39,7 @@ h1 {
     flex-basis: calc(50%-em);
     margin: 3px;
 }
+
 #circle {
     width: 500px;
     height: 500px;
@@ -55,31 +56,18 @@ h1 {
     font-size: 400%;
     color: #fefafa;
   }
+
 #form label{
     display: block;
     width: 500px;
     }
+
 #form input{
     display: inline-block;
     width: 500px;
     margin: 5px;
     border-radius: 5%;
 }
-
-
-
-
-  
-    
-/* main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    float: right;
-    
-} */
-
-
 
 button {
     color: #fffdfd;
@@ -90,6 +78,7 @@ button {
 #theme {
     float: right;
 }
+
 
 .dark {
     background-color:#18202a;
@@ -104,10 +93,18 @@ button {
   .dark .hero {
     border-bottom: 5px solid #fefafa;
   }
+  .dark .vl {
+    position:absolute;
+    border-left: 5px solid #fefafa;
+    height: 650px;
+    padding: 3px;
+    margin-left: 750px;
+}
   .dark section {
     color: #fefafa;
     border: 5px solid #fefafa;
   }
+
 
   
 .light {
@@ -127,4 +124,49 @@ button {
     color: #000000;
   }
 
+
+
+  @media screen and (max-width: 1398px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+    
+    .vl {
+        display: none;
+    }
+    .dark .vl {
+        display: none;
+    }
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+   body {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+   }
+  }
+  
+ 
+  @media screen and (max-width: 390px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 180%;
+    }
+   
+  }
+ 
+ 
 

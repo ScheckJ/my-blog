@@ -42,12 +42,12 @@ section{
 section h2{
     border-bottom: 3px  solid black;
     padding: 5px;
+    margin: 10px;
     
 }
 section p {
     display: flex;
     margin-left: 10px;
-    /* margin-bottom: 5px; */
     padding: 10px;
 }
 
@@ -60,32 +60,39 @@ footer{
 li {
     display: flex;
     font-weight: bolder;
-    margin-left: 60px;
     padding: 20px;
 }
 
 .dark {
     background-color:#18202a;
-    height: 165vh;
     color: #fefafa;
    
   }
   
   .dark header {
-    background-color: #18202a ;
+    background-color: #01060c ;
   }
   .dark .hero {
     border-bottom: 5px solid #fefafa;
   }
+
+  
   .dark section {
     color: #fefafa;
     border: 5px solid #fefafa;
   }
 
   .dark section h2{
-    border: 5px solid #fefafa;
+    border-bottom: 3px solid #fefafa;
   }
 
+  .dark footer {
+    background-color: #01060c;
+  }
+  
+  .dark li {
+    background-color: #01060c;
+  }
   
 .light {
     background-color:#fefafa;
@@ -104,4 +111,8 @@ li {
     color: #000000;
   }
 
+ 
   
+
+ 
+ 
