@@ -1,5 +1,6 @@
 const formData = document.getElementById('form')
 
+// created function to push values into the local storage
 function start(event) {
     event.preventDefault();
 
