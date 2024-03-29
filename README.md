@@ -10,7 +10,7 @@ This webpage can be used to add new posts to a blog to a blog site. You may use 
 
 [webpage] (https://scheckj.github.io/my-blog/)
 
-[my-blog-screenshot] ()
+[my-blog-screenshot] (assets/images/my-blog-screenshot.png)
 
 
 
