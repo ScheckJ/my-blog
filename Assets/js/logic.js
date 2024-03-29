@@ -15,7 +15,7 @@ for (let i = 0; i < blogData.length; i++) {
     const titleElement = document.createElement('h2');
     titleElement.textContent = title;
     
-    const contentDiv = document.createElement('div');
+    // const contentDiv = document.createElement('div');
     
     const contentElement = document.createElement('p');
     contentElement.textContent = content;
